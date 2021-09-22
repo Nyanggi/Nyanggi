@@ -25,9 +25,10 @@ func main() {
 func AboutMe(Nyanggi) []string {  
   Nyanggi.language = "Golang"
   Nyanggi.subLanguage = "Javscript"
+  Nyanggi.MainTools = "Visual Studio Code, Unity"
   Nyanggi.age = math.Inf(1)
   Nyanggi.contact = "Discord: Nyanggi#8389"
   Nyanggi.about_me = "A Normal Student Developer Using Golang"
-  return Nyanggi.language, Nyanggi.subLanguage, Nyanggi.age, Nyanggi.contact, Nyanggi.about_me
+  return Nyanggi.language, Nyanggi.subLanguage, Nyanggi.MainTools, Nyanggi.age, Nyanggi.contact, Nyanggi.about_me
 }
 ```
