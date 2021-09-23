@@ -19,10 +19,10 @@ import (
 )
 
 func main() {
-  fmt.Println(AboutMe(Nyanggi))
+  fmt.Println(AboutMe("Nyanggi"))
 }  
 
-func AboutMe(Nyanggi) []string {  
+func AboutMe(Nyanggi string) []string {  
   Nyanggi.language = "Golang"
   Nyanggi.subLanguage = "Javscript"
   Nyanggi.MainTools = "Visual Studio Code, Unity"
